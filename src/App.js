@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Project from "./Project";
+import projects from "./projects";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="pattern">
+      <div className="index">
+        <div className="central">
+          <h1 className="title">
+            Projects
+            <span className="separator"> • </span>
+            <a href="https://davidhartsough.com/" className="subtitle-link">
+              David Hartsough
+            </a>
+          </h1>
+          <div className="projects">
+            {projects.map(({ id, title, description, link, android }) => (
+              <Project
+                key={id}
+                id={id}
+                title={title}
+                description={description}
+                link={link}
+                android={android}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
