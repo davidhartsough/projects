@@ -9,7 +9,7 @@ export default function Project({ id, title, description, link, android }) {
         rel="noreferrer"
         className="project-image-link"
       >
-        <img src={`/images/${id}.png`} alt={title} className="project-image" />
+        <img src={`./images/${id}.png`} alt={title} className="project-image" />
       </a>
       <div className="project-text">
         <div>
