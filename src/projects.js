@@ -20,12 +20,42 @@ const projects = [
       "https://play.google.com/store/apps/details?id=com.davidhartsough.moments",
   },
   {
+    id: "when-tho",
+    title: "When Tho [BETA]",
+    description:
+      "Find a time for your event that works with everyone's schedules.",
+    link: "https://whentho.com/",
+  },
+  {
+    id: "call-me-up",
+    title: "Call Me Up",
+    description:
+      "Instant 1:1 audio calls for now or later — as simple as an old phone.",
+    link: "https://call-me-up.web.app/",
+  },
+  {
+    id: "read",
+    title: "Let Me Read",
+    description:
+      "Strip any webpage down to nothing but its text for easy readability.",
+    link:
+      "https://chrome.google.com/webstore/detail/let-me-read/bjbmfhoongjfogbbdniakknanfdgajda",
+  },
+  {
     id: "fostering-flourishing",
     title: "Fostering Flourishing",
     description:
       "Fostering the flourishing of life by defining, measuring, and prioritizing the fulfillment of universal needs.",
     color: "#06091d",
     link: "https://fosteringflourishing.org/",
+  },
+  {
+    id: "correla",
+    title: "Correla",
+    description:
+      'Connecting people through correlation, conversation, and community. Use "identities" to find new people and make new connections in your city.',
+    color: "#198bed",
+    link: "https://correla.web.app/",
   },
   {
     id: "gas",
@@ -36,12 +66,11 @@ const projects = [
     link: "https://spotify-gas.vercel.app/",
   },
   {
-    id: "correla",
-    title: "Correla",
+    id: "spootify",
+    title: "Dave's Faves on Spotify",
     description:
-      'Connecting people through correlation, conversation, and community. Use "identities" to find new people and make new connections in your city.',
-    color: "#198bed",
-    link: "https://correla.web.app/",
+      "A somewhat silly site to explore my favorite mixes and shuffle through thousands of my fav artists and albums.",
+    link: "https://davidhartsough.com/spotify/",
   },
   {
     id: "20-question-introspection",
