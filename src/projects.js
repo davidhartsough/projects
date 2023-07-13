@@ -55,7 +55,7 @@ const projects = [
     description:
       'Connecting people through correlation, conversation, and community. Use "identities" to find new people and make new connections in your city.',
     color: "#198bed",
-    link: "https://correla.web.app/",
+    link: "https://correla.vercel.app/",
   },
   {
     id: "gas",
