@@ -8,6 +8,7 @@ const projects = [
     link: "https://monthly-moments.web.app/",
     android:
       "https://play.google.com/store/apps/details?id=com.davidhartsough.monthly",
+    github: "https://github.com/davidhartsough/monthly-moments",
   },
   {
     id: "moments",
@@ -16,8 +17,7 @@ const projects = [
       "Capture and explore the amazing moments, memories, people, places, and activities in your life.",
     color: "#1471eb",
     link: "https://moments-memories.web.app/",
-    android:
-      "https://play.google.com/store/apps/details?id=com.davidhartsough.moments",
+    github: "https://github.com/davidhartsough/moments",
   },
   {
     id: "when-tho",
@@ -32,30 +32,64 @@ const projects = [
     description:
       "Instant 1:1 audio calls for now or later — as simple as an old phone.",
     link: "https://call-me-up.web.app/",
+    github: "https://github.com/davidhartsough/call",
+  },
+  {
+    id: "correla",
+    title: "Correla",
+    description:
+      "Connecting people through correlation and conversation. Explore the directory, discover amazing people, and make new connections.",
+    color: "#198bed",
+    link: "https://correla.vercel.app/",
+    github: "https://github.com/davidhartsough/correla-next",
   },
   {
     id: "read",
     title: "Let Me Read",
     description:
       "Strip any webpage down to nothing but its text for easy readability.",
-    link:
-      "https://chrome.google.com/webstore/detail/let-me-read/bjbmfhoongjfogbbdniakknanfdgajda",
+    link: "https://chrome.google.com/webstore/detail/let-me-read/bjbmfhoongjfogbbdniakknanfdgajda",
+    github: "https://github.com/davidhartsough/read-browser-extension",
   },
   {
-    id: "fostering-flourishing",
-    title: "Fostering Flourishing",
+    id: "simi-yt",
+    title: "SiMi YT",
     description:
-      "Fostering the flourishing of life by defining, measuring, and prioritizing the fulfillment of universal needs.",
-    color: "#06091d",
-    link: "https://fosteringflourishing.org/",
+      "A Chrome extension for a more simplistic/minimalistic YouTube: stripping the app down to its bare minimum essentials.",
+    link: "https://chromewebstore.google.com/detail/simi-yt/cdhgaakafmlmidiojeakgbmilmhghahe",
+    github: "https://github.com/davidhartsough/simi-yt-ext",
   },
   {
-    id: "correla",
-    title: "Correla",
+    id: "simi-ig",
+    title: "SiMi IG",
     description:
-      'Connecting people through correlation, conversation, and community. Use "identities" to find new people and make new connections in your city.',
-    color: "#198bed",
-    link: "https://correla.vercel.app/",
+      "A Chrome extension for a more simplistic/minimalistic Instagram: stripping the app down to its bare minimum essentials.",
+    link: "https://chromewebstore.google.com/detail/simi-ig/odfakbjpnmjpjmacamemnmkdmciepogi",
+    github: "https://github.com/davidhartsough/simi-ig-ext",
+  },
+  {
+    id: "simi-fb",
+    title: "SiMi FB",
+    description:
+      "A Chrome extension for a more simplistic/minimalistic Facebook: stripping the app down to its bare minimum essentials.",
+    link: "https://chromewebstore.google.com/detail/simi-fb/khlglnlobabeajodhgheklleopbiajfe",
+    github: "https://github.com/davidhartsough/simi-fb-ext",
+  },
+  {
+    id: "rn-simi-comps",
+    title: "React Native SiMi Comps",
+    description:
+      "Simplistic/Minimalistic Components for React Native: my first published package to npm!",
+    link: "https://www.npmjs.com/package/react-native-simi-comps",
+    github: "https://github.com/davidhartsough/react-native-simi-comps",
+  },
+  {
+    id: "try-axios",
+    title: "Try Axios",
+    description:
+      "Test out sending POST requests with Axios in this handy online tool.",
+    link: "https://try-axios.netlify.app/",
+    github: "https://github.com/davidhartsough/try-axios",
   },
   {
     id: "gas",
@@ -64,6 +98,7 @@ const projects = [
       "The Genre/Artist Shuffler: Fuel your listening. Explore the universe of music. Discover artists for every genre ever.",
     color: "#1db954",
     link: "https://spotify-gas.vercel.app/",
+    github: "https://github.com/davidhartsough/gas",
   },
   {
     id: "spootify",
@@ -71,6 +106,7 @@ const projects = [
     description:
       "A somewhat silly site to explore my favorite mixes and shuffle through thousands of my fav artists and albums.",
     link: "https://davidhartsough.com/spotify/",
+    github: "https://github.com/davidhartsough/spotify",
   },
   {
     id: "20-question-introspection",
@@ -78,8 +114,7 @@ const projects = [
     description:
       "Ask life's big questions to cultivate meaningful conversations, moments of reflection, and a deeper understanding of the thoughts that define our perspectives.",
     color: "#09b98b",
-    link:
-      "https://play.google.com/store/apps/details?id=com.davidhartsough.questionintrospection",
+    link: "https://play.google.com/store/apps/details?id=com.davidhartsough.questionintrospection",
   },
   {
     id: "hapidaily",
@@ -90,6 +125,7 @@ const projects = [
     link: "https://app.hapidaily.com/",
     android:
       "https://play.google.com/store/apps/details?id=com.davidhartsough.hapidaily",
+    github: "https://github.com/davidhartsough/hapidaily-app",
   },
   {
     id: "lifetime-calculator",
@@ -98,6 +134,7 @@ const projects = [
       "Calculate your lifetime. See your lifespan. Breakdown how much time you'll spend doing daily, weekly, and monthly activities over the course of your entire life.",
     color: "##98ccfd",
     link: "https://davidhartsough.com/lifetime-calculator/",
+    github: "https://github.com/davidhartsough/lifetime-calculator",
   },
   {
     id: "wonderful-world",
@@ -106,6 +143,7 @@ const projects = [
       "Get lost in a wave of wanderlust while exploring this wonderful world, one photosphere at a time.",
     color: "#3F51B5",
     link: "https://davidhartsough.com/wonderful-world/",
+    github: "https://github.com/davidhartsough/wonderful-world",
   },
   {
     id: "3-a-day",
@@ -114,6 +152,7 @@ const projects = [
       "A place to practice positivity by writing down 3 things that went well and why they went well every day.",
     color: "#00BE6A",
     link: "https://davidhartsough.com/3-a-day.co/",
+    github: "https://github.com/davidhartsough/3-a-day.co",
   },
   {
     id: "spoonerizer",
@@ -122,6 +161,7 @@ const projects = [
       "A goofy tool to convert any two words into a spoonerism. (It swaps the corresponding consonants or vowels at the beginnings of both words.)",
     color: "#00BCD4",
     link: "https://davidhartsough.com/spoonerizer/",
+    github: "https://github.com/davidhartsough/spoonerizer",
   },
   {
     id: "coin-machine",
@@ -129,8 +169,8 @@ const projects = [
     description:
       'The Coin-Operated Inter-Net Machine: an absurd Chrome extension that offers cutting-edge, exclusive "Web Surfing features".',
     color: "#de3133",
-    link:
-      "https://chrome.google.com/webstore/detail/coin-machine/konmkbglhickglfceeifbffogcocojbf",
+    link: "https://chrome.google.com/webstore/detail/coin-machine/konmkbglhickglfceeifbffogcocojbf",
+    github: "https://github.com/davidhartsough/COIN-Machine",
   },
   {
     id: "friendly-feed",
@@ -138,8 +178,8 @@ const projects = [
     description:
       "A Chrome extension that cleans up your Facebook feed. No more trending, related, suggested, paid, or sponsored content; just updates from friends.",
     color: "#2d88ff",
-    link:
-      "https://chrome.google.com/webstore/detail/friendly-feed/dohehejmmbcfejempphbkcehfhinodem",
+    link: "https://chrome.google.com/webstore/detail/friendly-feed/dohehejmmbcfejempphbkcehfhinodem",
+    github: "https://github.com/davidhartsough/friendly-feed",
   },
   {
     id: "spot-seeker",
@@ -148,6 +188,7 @@ const projects = [
       "A social cartography app for Spot Seekers to help each other explore the most beautiful places nearby.",
     color: "#E91E63",
     link: "https://davidhartsough.com/spotseeker.co/",
+    github: "https://github.com/davidhartsough/spotseeker.co",
   },
   {
     id: "my-big-bio",
@@ -156,6 +197,7 @@ const projects = [
       "Who are you? Create a full autobiography by simply answering questions. As your bio grows, My Big Bio generates a timeline and map of your life.",
     color: "#46469B",
     link: "https://davidhartsough.com/mybig.bio/",
+    github: "https://github.com/davidhartsough/mybig.bio",
   },
   {
     id: "answers-from-all",
@@ -164,13 +206,8 @@ const projects = [
       "Ask big questions. Explore all answers. Answers From All aims to aid in the exploration of one's perspectives on life by asking big questions.",
     color: "#09f",
     link: "https://davidhartsough.com/answersfromall.com/",
+    github: "https://github.com/davidhartsough/answersfromall.com",
   },
-  // {
-  //   id: "",
-  //   title: "",
-  //   description: "",
-  //   link: "",
-  // },
 ];
 
 export default projects;

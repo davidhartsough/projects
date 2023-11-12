@@ -153,8 +153,13 @@ main {
   font-weight: 400;
   margin: 0.375rem 0 0.5rem;
 }
+.project-links {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
 .project-link {
-  display: inline-block;
+  display: block;
   padding: 0.5rem 0.75rem;
   cursor: pointer;
   font-weight: 500;
@@ -170,7 +175,7 @@ main {
   user-select: none;
   width: auto;
   height: auto;
-  margin: 0.5rem 1rem 0 0;
+  margin: 0 1rem 0 0;
   transition: 0.2s;
 }
 .project-link:hover,

@@ -1,6 +1,13 @@
 import React from "react";
 
-export default function Project({ id, title, description, link, android }) {
+export default function Project({
+  id,
+  title,
+  description,
+  link,
+  android,
+  github,
+}) {
   return (
     <div className="project">
       <a
@@ -25,35 +32,47 @@ export default function Project({ id, title, description, link, android }) {
           </p>
           <p className="project-description">{description}</p>
         </div>
-        {android ? (
-          <div className="project-links">
+        <div className="project-links">
+          {android ? (
+            <>
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Web app
+              </a>
+              <a
+                href={android}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Android app
+              </a>
+            </>
+          ) : (
             <a
               href={link}
               target="_blank"
               rel="noreferrer"
               className="project-link"
             >
-              Web app
+              Check it out
             </a>
+          )}
+          {github ? (
             <a
-              href={android}
+              href={github}
               target="_blank"
               rel="noreferrer"
               className="project-link"
             >
-              Android app
+              GitHub
             </a>
-          </div>
-        ) : (
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="project-link"
-          >
-            Check it out
-          </a>
-        )}
+          ) : null}
+        </div>
       </div>
     </div>
   );
