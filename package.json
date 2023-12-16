@@ -1,7 +1,6 @@
 {
   "name": "projects",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://davidhartsough.com/projects/",
   "dependencies": {
     "react": "^18.2.0",

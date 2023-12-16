@@ -1,5 +1,20 @@
 const projects = [
   {
+    id: "invite-info",
+    title: "Invite Info",
+    description: "Simple event pages to easily share invitation information.",
+    link: "https://invite-info.web.app/",
+    github: "https://github.com/davidhartsough/invite-info",
+  },
+  {
+    id: "when-tho",
+    title: "when tho",
+    description:
+      "Scheduling for calls with people across different cities and timezones.",
+    link: "https://when-tho.web.app/",
+    github: "https://github.com/davidhartsough/when-tho",
+  },
+  {
     id: "monthly-moments",
     title: "Monthly Moments",
     description:
@@ -18,13 +33,6 @@ const projects = [
     color: "#1471eb",
     link: "https://moments-memories.web.app/",
     github: "https://github.com/davidhartsough/moments",
-  },
-  {
-    id: "when-tho",
-    title: "When Tho [BETA]",
-    description:
-      "Find a time for your event that works with everyone's schedules.",
-    link: "https://whentho.com/",
   },
   {
     id: "call-me-up",
