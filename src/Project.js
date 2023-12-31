@@ -47,7 +47,7 @@ export default function Project({
                 href={android}
                 target="_blank"
                 rel="noreferrer"
-                className="project-link"
+                className="project-link android-app-link"
               >
                 Android app
               </a>

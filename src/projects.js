@@ -131,8 +131,6 @@ const projects = [
       "HapiDaily: have a positive impact daily. Empowering people with ideas on how to make a difference in the lives of others through everyday expressions of love.",
     color: "#1997FF",
     link: "https://app.hapidaily.com/",
-    android:
-      "https://play.google.com/store/apps/details?id=com.davidhartsough.hapidaily",
     github: "https://github.com/davidhartsough/hapidaily-app",
   },
   {
