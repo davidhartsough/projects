@@ -16,19 +16,16 @@ export default function App() {
             </a>
           </h1>
           <div className="projects">
-            {projects.map(
-              ({ id, title, description, link, android, github }) => (
-                <Project
-                  key={id}
-                  id={id}
-                  title={title}
-                  description={description}
-                  link={link}
-                  android={android}
-                  github={github}
-                />
-              )
-            )}
+            {projects.map(({ id, title, description, link, github }) => (
+              <Project
+                key={id}
+                id={id}
+                title={title}
+                description={description}
+                link={link}
+                github={github}
+              />
+            ))}
           </div>
         </div>
       </div>

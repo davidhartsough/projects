@@ -1,18 +1,18 @@
 const projects = [
   {
+    id: "all-my-favs",
+    title: "All My Favs",
+    description:
+      "Your profile. Your favs. All in one place. Share your lists of your favorites.",
+    link: "https://all-my-favs.web.app/",
+    github: "https://github.com/davidhartsough/all-my-favs-web-app",
+  },
+  {
     id: "invite-info",
     title: "Invite Info",
     description: "Simple event pages to easily share invitation information.",
     link: "https://invite-info.web.app/",
     github: "https://github.com/davidhartsough/invite-info",
-  },
-  {
-    id: "when-tho",
-    title: "when tho",
-    description:
-      "Scheduling for calls with people across different cities and timezones.",
-    link: "https://when-tho.web.app/",
-    github: "https://github.com/davidhartsough/when-tho",
   },
   {
     id: "monthly-moments",
@@ -21,8 +21,6 @@ const projects = [
       "The minimal yet meaningful social platform for sharing amazing moments with amazing people — one month at a time.",
     color: "#1471eb",
     link: "https://monthly-moments.web.app/",
-    android:
-      "https://play.google.com/store/apps/details?id=com.davidhartsough.monthly",
     github: "https://github.com/davidhartsough/monthly-moments",
   },
   {
@@ -33,6 +31,14 @@ const projects = [
     color: "#1471eb",
     link: "https://moments-memories.web.app/",
     github: "https://github.com/davidhartsough/moments",
+  },
+  {
+    id: "when-tho",
+    title: "when tho",
+    description:
+      "Scheduling for calls with people across different cities and timezones.",
+    link: "https://when-tho.web.app/",
+    github: "https://github.com/davidhartsough/when-tho",
   },
   {
     id: "call-me-up",
@@ -115,14 +121,6 @@ const projects = [
       "A somewhat silly site to explore my favorite mixes and shuffle through thousands of my fav artists and albums.",
     link: "https://davidhartsough.com/spotify/",
     github: "https://github.com/davidhartsough/spotify",
-  },
-  {
-    id: "20-question-introspection",
-    title: "20 Question Introspection",
-    description:
-      "Ask life's big questions to cultivate meaningful conversations, moments of reflection, and a deeper understanding of the thoughts that define our perspectives.",
-    color: "#09b98b",
-    link: "https://play.google.com/store/apps/details?id=com.davidhartsough.questionintrospection",
   },
   {
     id: "hapidaily",

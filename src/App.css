@@ -194,9 +194,3 @@ main {
     padding: 0.5rem 0 0.5rem 0.5rem;
   }
 }
-
-@media (64rem <= width <= 68rem) or (30rem < width <= 32rem) {
-  .android-app-link {
-    display: none;
-  }
-}
