@@ -1,5 +1,21 @@
 const projects = [
   {
+    id: "minder",
+    title: "minder",
+    description:
+      "Twice daily reminders: for what's worth remembering. Keep your habits, values, skills, etc, fresh in your mind.",
+    link: "https://re-minder.netlify.app/",
+    github: "https://github.com/davidhartsough/minder-web-app",
+  },
+  {
+    id: "minder",
+    title: "Reconnection",
+    description:
+      "Friendly reminders to reconnect with friends — someone different every day. (Sister project to minder)",
+    link: "https://reconnection.netlify.app/",
+    github: "https://github.com/davidhartsough/reconnect",
+  },
+  {
     id: "all-my-favs",
     title: "All My Favs",
     description:

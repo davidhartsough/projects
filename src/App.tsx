@@ -1,7 +1,5 @@
-import React from "react";
 import Project from "./Project";
 import projects from "./projects";
-import "./App.css";
 
 export default function App() {
   return (
@@ -18,7 +16,7 @@ export default function App() {
           <div className="projects">
             {projects.map(({ id, title, description, link, github }) => (
               <Project
-                key={id}
+                key={`${id}${title}`}
                 id={id}
                 title={title}
                 description={description}

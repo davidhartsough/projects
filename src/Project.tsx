@@ -1,6 +1,16 @@
-import React from "react";
-
-export default function Project({ id, title, description, link, github }) {
+export default function Project({
+  id,
+  title,
+  description,
+  link,
+  github,
+}: {
+  id: string;
+  title: string;
+  description: string;
+  link: string;
+  github: string;
+}) {
   return (
     <div className="project">
       <a
